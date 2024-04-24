@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>NSZX</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BootstrapBlazor" Version="8.4.7" />
+    <PackageReference Include="BootstrapBlazor.FontAwesome" Version="8.0.2" />
+    <PackageReference Include="BootstrapBlazor.SummerNote" Version="8.0.2" />
+    <PackageReference Include="FreeSql.Extensions.BaseEntity" Version="3.2.821" />
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.821" />
+    <PackageReference Include="FreeSql.Provider.SqlServer" Version="3.2.821" />
+    <PackageReference Include="Mapster" Version="7.4.1-pre01" />
+    <PackageReference Include="MiniExcel" Version="1.31.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Layout\MainLayout.razor" />
+    <_ContentIncludedByDefault Remove="Components\Layout\NavMenu.razor" />
+    <_ContentIncludedByDefault Remove="Components\Layout\NotFoundLayout.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Admin\Menu.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Admin\Role.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Admin\User.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Counter.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Error.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Home.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Weather.razor" />
+    <_ContentIncludedByDefault Remove="Layout\MainLayout.razor" />
+    <_ContentIncludedByDefault Remove="Layout\NavMenu.razor" />
+    <_ContentIncludedByDefault Remove="Layout\NotFoundLayout.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Layout\MainLayout.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Layout\NavMenu.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Layout\NotFoundLayout.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Menu.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\Role.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Admin\User.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Counter.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Error.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Home.razor" />
+    <_ContentIncludedByDefault Remove="Pages\Weather.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\ExaminationList.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\ExamList.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\MyExamination.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\QuestionLibList.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\SetChapter.razor" />
+    <_ContentIncludedByDefault Remove="Components\Pages\Exam\UploadQuestion.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\AdminTable.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\EditMenu.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\ExamOptionSet.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\LoginLayout.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\SelectClass.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\SelectClassOrExam.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\SetRoleMenu.razor" />
+    <_ContentIncludedByDefault Remove="Components\Components\SetUserRole.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Asset\UserTemplate.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+</Project>

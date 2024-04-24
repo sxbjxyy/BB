@@ -1,0 +1,29 @@
+﻿@inherits LayoutComponentBase
+<BootstrapBlazorRoot>
+    <Layout SideWidth="0" IsPage="true" IsFullSide="@IsFullSide" IsFixedHeader="@IsFixedHeader" IsFixedFooter="@IsFixedFooter"
+            ShowGotoTop="true" ShowCollapseBar="true"
+            UseTabSet="@UseTabSet" TabDefaultUrl="layout-page"
+            class="@LayoutClassString">
+        <Header>
+            <span class="ms-3 flex-fill">管理平台</span>
+        </Header>
+        <Side>
+            <div class="layout-banner">
+                <div class="layout-title">
+                    <span>管理平台</span>
+                </div>
+            </div>
+            <div>
+                <p></p>
+                <div class="nav-item px-3 g-3">
+                    <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">
+                        <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                    </NavLink>
+                </div>
+            </div>
+        </Side>
+        <Main>
+            @Body
+        </Main>
+    </Layout>
+</BootstrapBlazorRoot>

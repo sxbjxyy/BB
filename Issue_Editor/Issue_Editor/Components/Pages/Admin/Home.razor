@@ -1,0 +1,23 @@
+﻿@page "/"
+
+<Table TItem="UserEntity"
+       IsBordered="true" IsStriped="true" ShowRefresh="true"
+       ShowToolbar="true" ShowEditButton="false" ShowDeleteButton="false"
+       ShowExtendButtons="true" EditDialogSize="Size.ExtraLarge" >
+    <TableColumns>
+        <TableColumn @bind-Field="@context.Content">
+            <EditTemplate Context="value">
+                <label class="form-label">公告内容</label>
+                <div class="col-12 col-sm-12 col-md-12">
+                    <Editor @bind-Value="@value.Content" Height="300" 
+                            IsEditor="true" Placeholder=""
+                            ShowSubmit="false" style="width:100%"/>
+                </div>
+            </EditTemplate>
+        </TableColumn>
+    </TableColumns>
+</Table>
+@code{
+
+}
+

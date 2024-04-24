@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\giteeOK\\Issue_Editor\\Issue_Editor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Issue_Editor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Issue_Editor.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\giteeOK\\Issue_Editor\\Issue_Editor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "F:\\giteeOK\\Issue_Editor\\Issue_Editor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\giteeOK\\Issue_Editor\\Issue_Editor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\giteeOK\\Issue_Editor\\Issue_Editor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Issue_Editor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Issue_Editor.props",
+      "PackagePath": "build\\Issue_Editor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Issue_Editor.props",
+      "PackagePath": "buildMultiTargeting\\Issue_Editor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Issue_Editor.props",
+      "PackagePath": "buildTransitive\\Issue_Editor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

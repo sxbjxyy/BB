@@ -1,0 +1,7 @@
+BB
+
+有 UserEntity、RoleEntity
+
+数据库 Sqlite    document.db
+
+ORM ： FreeSql
